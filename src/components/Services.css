@@ -1,0 +1,47 @@
+.services {
+  margin: 13px 21px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.services__header {
+  margin-bottom: 7px;
+  padding-right: 29px;
+  line-height: 20pt;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+.services__list > ul {
+  list-style-type: none;
+}
+.services__list {
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 20pt;
+}
+.services__list > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 36px;
+}
+.services__title {
+  padding-left: 6px;
+}
+
+.services__count {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+}
+.services__total {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 36px;
+  margin-top: 9px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}

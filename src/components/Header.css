@@ -1,0 +1,38 @@
+.header {
+  padding: 20px 0px;
+  position: relative;
+}
+.header__avatar {
+  width: 120px;
+  height: 120px;
+  background: url(../img/avatar/avatar_user_1.jpg);
+  border-radius: 50%;
+  background-position: -20px -15px;
+  position: absolute;
+  left: 21px;
+  
+}
+.header__info {
+  margin-left: 152px;
+}
+.header__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header__desc {
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+}
+.header__text {
+  font-size: 14px;
+  line-height: 20px;
+  background: #fffbc8;
+  border: 1px solid #dadada;
+  margin-left: -50px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 50px;
+  margin-right: 21px;
+}

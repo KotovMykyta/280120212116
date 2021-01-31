@@ -1,0 +1,71 @@
+.reviews__header {
+  display: flex;
+  justify-content: space-between;
+}
+.reviews__links {
+  display: flex;
+}
+.reviews__text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 21px;
+}
+.reviews__link {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.reviews__icons {
+  display: flex;
+  margin-right: 21px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.reviews__like {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.reviews__comment {
+  padding-left: 16px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.reviews__answer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reviews__input {
+  width: 100%;
+}
+.reviews__inputField {
+  margin: 28px 21px 23px 21px;
+  padding: 10px 10px;
+  width: -webkit-fill-available;
+  min-height: 63px;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  resize: none;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+.reviews__button {
+  width: 281px;
+  min-height: 43px;
+  border-radius: 23px;
+  background-color: #fdd639;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 34px;
+}

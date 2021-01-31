@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial;
+  color: #333333;
+}
+.app {
+  /* background-color: #E5E5E5; */
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 360px;
+  max-width: 720px;
+}
